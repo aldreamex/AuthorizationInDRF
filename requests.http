@@ -1,0 +1,22 @@
+GET http://localhost:8000/adv/
+Authorization: Token 33ffe58912ec69b78b06223b6f91972a45ec0c88
+
+###
+
+POST  http://localhost:8000/adv/
+Content-Type: application/json
+Authorization: Token 33ffe58912ec69b78b06223b6f91972a45ec0c88
+
+{
+    "text": "Объявление11"  
+}
+
+###
+
+DELETE   http://localhost:8000/adv/9/
+Authorization: Token 61565a5388c2788bd0c74cfba763b1a1a8f8e4b9
+
+###
+
+GET http://localhost:8000/adv/9/
+Authorization: Token 61565a5388c2788bd0c74cfba763b1a1a8f8e4b9
